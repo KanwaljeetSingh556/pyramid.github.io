@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three triangles</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: orange            
+        }
+      #tri1{
+          position:relative;
+          height:0;
+          width:0;
+          margin: auto;
+          top: 5rem;
+          border-right: 200px solid orange;
+          border-bottom: 200px solid black;
+          border-left: 200px solid orange;
+          z-index: 200;
+
+      }
+      #tri2{
+          position:relative;
+          height:0;
+          width:0;
+          margin: auto;
+          border-right: 200px solid orange;
+          border-bottom: 200px solid green;
+          border-left: 200px solid orange;
+          z-index: 100;
+
+      }
+      #tri3{
+          position:relative;
+          height:0;
+          width:0;
+          margin: auto;
+          top: -5rem;
+          border-right: 200px solid orange;
+          border-bottom: 200px solid red;
+          border-left: 200px solid orange;
+         
+      }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="tri1"></div>
+    <div id="tri2"></div>
+    <div id="tri3"></div>
+    </div>
+</body>
+</htm
